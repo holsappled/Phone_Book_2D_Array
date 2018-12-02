@@ -100,10 +100,10 @@ public class PhoneBook
 
         //use the contact class to create a contact profile
         list[count] = new Contact(firstName, lastName, email);
-        
+
         //add one to the counter
         count++;
-        
+
         //see if the name exists in the array "list"
         System.out.println(Arrays.toString(list));
 
@@ -129,7 +129,7 @@ public class PhoneBook
                 System.out.print("Contact Information #" + (i+1));
                 System.out.println();
                 System.out.println();
-                
+
                 //use the methods in Contact class to display all the current contacts
                 System.out.println("First Name: " + list[i].getFirstName());
                 System.out.println("Last Name: " + list[i].getLastName());
@@ -158,14 +158,13 @@ public class PhoneBook
         //Add code for sortContact method. Sort contacts by last name only. 
         //You will have to use getLastName method in the Contact class.
 
-      
 
         for(int i = 0; i < count; i++)
         {
             String matchLastName = list[i].getLastName();
             //Arrays.sort(list);
             //System.out.println(Collections.sort(matchLastName));
-          
+
         }
 
     }
@@ -187,13 +186,12 @@ public class PhoneBook
         System.out.println("What is the Last Name you are searching for?");
         String userInput = kb.nextLine();
 
-        
         for(int i = 0; i < count; i++)
         {
             //create string matchLastName,  this equals an array set by the count and 
             //uses the method getLastName from class Contact to pull last name from newly created array
             String matchLastName = list[i].getLastName();
-            
+
             //if the user input matches a lastName in the array then the program
             //will print all the users data
             if (matchLastName.equals(userInput))
@@ -208,19 +206,22 @@ public class PhoneBook
 
                 // if(!matchLastName.equals(userInput))
                 // {
-                    // System.out.println();
-                    // System.out.print("Error: There is no Contact with that name in the list"); 
-                    // System.out.println();
-                    // System.out.println();
+                // System.out.println();
+                // System.out.print("Error: There is no Contact with that name in the list"); 
+                // System.out.println();
+                // System.out.println();
                 // }
             }
-           else
-           {
-                     System.out.println();
-                     System.out.print("Error: There is no Contact with that name in the list"); 
-                     System.out.println();
-                     System.out.println();  
-           }
+            else if(i==(count-1))
+            {
+                System.out.println();
+                System.out.print("Error: There is no Contact with that name in the list"); 
+                System.out.println();
+                System.out.println();  
+                break;
+                
+            }
+            
 
         }
     }
