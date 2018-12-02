@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=Contact
+comment0.text=\n\ This\ is\ the\ contact\ class\ which\ can\ keep\ track\ of\ a\ person's\n\ first\ name,\ last\ name,\ and\ e-mail\ address.\n\n\ @author\ Dr.\ Salim\ Lakhani.\n\ @version\ 20181124\n
+comment1.params=fn\ ln\ email
+comment1.target=Contact(java.lang.String,\ java.lang.String,\ java.lang.String)
+comment1.text=\n\ Constructor\ initializes\ an\ object\ of\ Contact\ class.\ All\n\ fields\ are\ initialized\ using\ value\ passed\ through\ \n\ parameter.\n\ @param\ fn\ First\ name\ of\ the\ contact\n\ @param\ ln\ Last\ name\ of\ the\ contact\n\ @param\ email\ Email\ address\ of\ the\ contact\n
+comment2.params=
+comment2.target=java.lang.String\ getFirstName()
+comment2.text=\n\ Returns\ first\ name\ of\ the\ contact\n\ @return\ First\ name\ of\ the\ contact.\n
+comment3.params=
+comment3.target=java.lang.String\ getLastName()
+comment3.text=\n\ Returns\ last\ name\ of\ the\ contact\n\ @return\ Last\ name\ of\ the\ contact.\n
+comment4.params=
+comment4.target=java.lang.String\ getEmailAddress()
+comment4.text=\n\ Returns\ email\ address\ of\ the\ contact\n\ @return\ Email\ address\ of\ the\ contact.\n
+numComments=5

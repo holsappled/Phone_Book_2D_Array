@@ -1,0 +1,18 @@
+#BlueJ class context
+comment0.target=PhoneBook
+comment0.text=\n\ Phone\ book\ is\ a\ menu\ driven\ application.\ It\ can\ perform\n\ following\ activities\:\n\ Add\ a\ new\ contact\ to\ the\ list\n\ Display\ list\ of\ all\ contacts\n\ Sort\ contacts\ by\ last\ name\n\ Serach\ for\ a\ contact\ by\ last\ name\n\n\ @author\ (Derek\ Holsapple)\n\ @version\ (20181130)\n
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment2.params=
+comment2.target=void\ addContact()
+comment2.text=\n\ addContact\ method\ will\ ask\ user\ for\ first\ name,\ last\ name\n\ and\ email\ address\ of\ the\ contact,\ it\ will\ create\ the\ contact\n\ object\ and\ add\ it\ to\ the\ array\ (list).\n\ Note\:\ Scanner\ (kb),\ Contact\ Array\ (list)\ and\ count\ have\ already\n\ been\ created\ in\ main\ method.\n
+comment3.params=
+comment3.target=void\ displayContact()
+comment3.text=\n\ displayContact\ method\ will\ display\ the\ list\ of\ all\ contacts.\n
+comment4.params=
+comment4.target=void\ sortContact()
+comment4.text=\n\ Sort\ contact\ list\ by\ last\ name.\n
+comment5.params=
+comment5.target=void\ searchContact()
+comment5.text=\n\ searchContact\ will\ ask\ the\ user\ for\ last\ name,\ search\ for\ contact\n\ in\ the\ list,\ and\ display\ the\ first\ name,\ last\ name\ and\ email\n\ address\ of\ the\ contact.\ If\ the\ contact\ is\ not\ found\ then\ it\ will\n\ display\ an\ error\ message\n\ \n
+numComments=6
